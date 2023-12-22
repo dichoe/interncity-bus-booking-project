@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="paneoption" prefHeight="557.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo22.Option">
+   <children>
+      <ImageView fx:id="imageoption" fitHeight="557.0" fitWidth="279.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2023-12-21_16-45-53.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="exitoption" layoutX="-14.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#exitoption" prefHeight="30.0" prefWidth="36.0" style="-fx-background-color: none;" />
+      <Button fx:id="standardbutt" layoutX="4.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#standardoption" opacity="0.2" prefHeight="82.0" prefWidth="262.0" />
+      <Button fx:id="flexbutton" layoutX="4.0" layoutY="186.0" mnemonicParsing="false" onMouseClicked="#flexoption" opacity="0.2" prefHeight="82.0" prefWidth="262.0" />
+      <ImageView fx:id="busmap" fitHeight="13.0" fitWidth="16.0" layoutX="232.0" layoutY="280.0" onMouseClicked="#busmap" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@photo_2023-12-20_15-39-20.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="priceticket" layoutX="127.0" layoutY="448.0" prefHeight="19.0" prefWidth="143.0" text="price for ticket" textFill="#868484">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceclass" layoutX="126.0" layoutY="471.0" prefHeight="19.0" prefWidth="144.0" text="class for ticket" textFill="#868484">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalcost" layoutX="129.0" layoutY="494.0" prefHeight="19.0" prefWidth="143.0" text="total cost" textFill="#868484">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmbutton" layoutX="39.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#confirmbutton" prefHeight="37.0" prefWidth="192.0" style="-fx-background-color: none;" text="CONFIRM" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Button>
+      <AnchorPane fx:id="paneformap" layoutX="-272.0" layoutY="310.0" prefHeight="262.0" prefWidth="273.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="imageformap" fitHeight="269.0" fitWidth="197.0" layoutX="2.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_2023-12-21_09-48-09.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="frommap" layoutX="101.0" layoutY="-3.0" text="Almaty">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="cafestop" layoutX="97.0" layoutY="54.0" text=" cafe stop">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="middlemap" layoutX="101.0" layoutY="109.0" text="middle ctiy">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="stationmap" layoutX="104.0" layoutY="166.0" text="station">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

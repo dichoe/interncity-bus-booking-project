@@ -1,0 +1,8 @@
+Client Type: Adult
+Date 24
+Client Route ALMATY---KENTAU
+Bus Type: BUS WITH SLEEP
+Available Seats: 29 Your place is 1
+Flex class
+Name on card: sdfsdf
+Name: dfsdf sdfsd
